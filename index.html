@@ -4,30 +4,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Colors</title>
 </head>
 <body>
-    <div class="nav-bar">
+    <!-- Nav bar section -->
+    <nav class="nav-bar">
         <div class="nav-container">
-            <a href="" class="nav-logo"></a>
-            <div class="nav-toggle"></div>
-            <div class="nav-menu">
-                <ul>
-                    <li>
-                        <a href="#" class="nav-item"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-item"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-item"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-item"></a>
-                    </li>
-                </ul>
+            <a href="#home" class="nav-logo" id="logo">Colors</a>
+            <div class="nav-toggle" id="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" id="home-page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" id = "about-page">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" id="services-page">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sign-up" class="nav-link btn" id="sign-up-page">Sign Up</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+    </nav>
+
+
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero-container">
+            <h1 class="hero-heading">Choose your <span>Colors</span></h1>
+            <p class="hero-description">
+                Unlimited Possibilities
+            </p>
+            <button class="main-btn"><a href="#explore" target="_blank" rel="noopener noreferrer">Explore</a></button>
+        </div>
+
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main-container">
+            <div class="main-img-container">
+                <div class="main-img-card"><i class="fas fa-layer-group"></i></div>
+            </div>
+            <div class="main-content">
+                <h1>What do we do ?</h1>
+                <h2>We help businesses scale</h2>
+                <p>Schedule a call to learn more about our services</p>
+                <button class="main-btn"><a href="#schedule" target="_blank" rel="noopener noreferrer">Schedule</a></button>
+            
+
             </div>
         </div>
     </div>
+
+
+    <!-- Services -->
+    <div class="services" id="services">
+        <h2 class="heading" id="me">Our Services invclude</h2>
+        <div class="services-wrapper">
+            <div class="services-card">
+                <h2>Color Ways</h2>
+                <p>AI powered technology</p>
+                 <div class="services-btn">
+                     <button><a href=""> Get Started</a></button>
+                 </div>
+
+            </div>
+            <div class="services-card">
+                <h2>Are you ready?</h2>
+                <p>Take the Leap</p>
+                 <div class="services-btn">
+                     <button><a href=""> Get Started</a></button>
+                 </div>
+
+            </div>
+            <div class="services-card">
+                <h2>Color that pop</h2>
+                <p>Infinitely poppping</p>
+                 <div class="services-btn">
+                     <button><a href=""> Get Started</a></button>
+                 </div>
+
+            </div>
+            <div class="services-card">
+                <h2>1000 Ways Foward</h2>
+                <p>In color progression the steps are iterable</p>
+                 <div class="services-btn">
+                     <button><a href=""> Get Started</a></button>
+                 </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- sign-up -->
+    <div class="main" id="sign-up">
+        <div class="main-container">
+            <div class="main-img-container">
+                <div class="main-img-card" id="card-2"><i class="fas fa-users"></i></div>
+            </div>
+            <div class="main-content">
+                <h1>Join our team</h1>
+                <h2>Sign up today</h2>
+                <p>See what makes us different</p>
+                <button class="main-btn"><a href="#schedule" target="_blank" rel="noopener noreferrer">Sign up</a></button>
+            
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-container">
+        <div class="footer-links">
+
+            
+            <div class="footer-links-wrapper">
+                <div class="footer-item">
+                    <h2>About Us</h2>
+                    <a href="/">Sign Up</a>
+                    <a href="">How it works</a>
+                    <a href="">Testimonials</a>
+                    <a href="">Careers</a>
+                    <a href="">Terms of Service</a>
+                </div>
+                <div class="footer-item">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contact</a> <a href="/">Support</a>
+                    <a href="/">Destinations</a>
+                </div>
+            </div>
+            <div class="footer-links-wrapper">
+                <div class="footer-item">
+                    <h2>Videos</h2>
+                    <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+                    <a href="/">Agency</a>
+                </div>
+                <div class="footer-item">
+                    <h2>Social Media</h2>
+                    <a href="">Instagram</a>
+                    <a href="">Twitter</a>
+                    <a href="">Facebook</a>
+                    
+                </div>
+            </div>
+                
+                
+        </div>
+        
+        <section class="social-media">
+            <div class="social-media-wrapper">
+                <div class="footer-logo">
+                    <a href="" id="footer-logo">COLOR</a>
+                    
+                </div>
+                <p class="website-rights">&copy 2020. All rights reserved</p>
+                <div class="social-links">
+                    <a href="/" class="social-icon-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social-icon-link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="/" class="social-icon-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social-icon-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+
+            
+
+        </section>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+
+    
 </body>
 </html>
