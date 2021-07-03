@@ -30,7 +30,7 @@ function highlightToggler(e){
     for (const link of navLinks) {
         // prevent button from partakin
         if (link.className === 'nav-link btn') {
-            console.log('tio')
+            // console.log('tio')
             continue;
             
         }
@@ -40,7 +40,7 @@ function highlightToggler(e){
     }
     // Turn on highlight for target element
     e.target.id !== 'sign-up-page'? e.target.classList.toggle('highlight'): ''
-    console.log(e.target)
+    // console.log(e.target)
     
 
 }
