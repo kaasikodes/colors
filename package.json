@@ -1,0 +1,23 @@
+{
+  "name": "HTML_CSS_JS_Responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaasikodes/colors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaasikodes/colors/issues"
+  },
+  "homepage": "https://kaasikodes.github.io/colors",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
